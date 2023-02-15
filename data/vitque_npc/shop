@@ -1,0 +1,16 @@
+機能: NPCに関する詳細
+
+F ショップシステム
+
+
+カテゴリ
+A : advancements 
+F : functions
+I  : item_modifiers
+L : loot_tables
+R : recipes
+T : tags
+D : dimension_type
+S : structures
+W: worldgen
+# : その他

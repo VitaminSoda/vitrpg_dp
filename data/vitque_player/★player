@@ -1,0 +1,18 @@
+機能: 敵に関する詳細
+
+F プレイヤーステータス
+F 初期処理
+F 職業
+F レベリング
+
+カテゴリ
+A : advancements 
+F : functions
+I  : item_modifiers
+L : loot_tables
+R : recipes
+T : tags
+D : dimension_type
+S : structures
+W: worldgen
+# : その他

@@ -1,0 +1,24 @@
+機能: ファンクション以外の総括
+
+A 官能的アドバンスメント
+I  アイテムモディファイア全般
+L 官能的ルートテーブル
+
+
+カテゴリ
+A : advancements 
+F : functions
+I  : item_modifiers
+L : loot_tables
+R : recipes
+T : tags
+D : dimension_type
+S : structures
+W: worldgen
+# : その他
+
+# メモ
+ execute in minecraft:overworld run tp @s tp @s 10367 23.00 10013 180 0
+
+ summon skeleton ~ ~1 ~ {Silent:1b,CustomNameVisible:1b,DeathLootTable:"vitaque_item:enemy/002",Team:"Enemy",Health:1f,Tags:["Enm.002","EnmSound.001"],CustomName:'[{"text":"Lv 1 "},{"translate":"vitque.entity.id.002"},{"text":" ❤","color":"red"},{"text":"15"}]',HandItems:[{id:'minecraft:warped_fungus_on_a_stick',Count:1b,tag:{display:{Name:'{"text":" "}'},CustomModelData:100002}},{}],HandDropChances:[-1024.000F,0.085F],ArmorItems:[{},{},{id:'minecraft:leather_chestplate',Count:1b,tag:{display:{color:3},Unbreakable:1b,AttributeModifiers:[{AttributeName:'generic.armor',Name:'generic.armor',Amount:2,Operation:0,UUID:[I;1098848522,1609780400,-1499876287,-1140688147],Slot:'chest'}]}},{id:'minecraft:command_block_minecart',Count:1b,tag:{display:{Name:'{"translate":"Skeleton Sword"}',Lore:["{\"translate\":\"\"}"]}}}],ArmorDropChances:[0.085F,0.085F,0.085F,-1024.000F],Attributes:[{Name:generic.max_health,Base:15},{Name:generic.movement_speed,Base:0.2},{Name:generic.attack_damage,Base:4}]}
+ give @p bow{Unbreakable: 1b, CustomModelData: 100001, HideFlags: 127, display: {Lore: ['{"text":"= Base Info ===","color":"gray","italic":false}', '{"text":" 🗡 STR +3","color":"gold","italic":false}', '{"text":" ✂ LUC +10%","color":"aqua","italic":false}', '{"text":"= Enchants ====","color":"gray","italic":false}', '{"text":" > ","color":"white","italic":false}', '{"text":"==============","color":"gray","italic":false}'], Name: '{"translate":"vitaque.item.id.100001","color":"white","italic":false}'}, Damage: 0, Vitque: {Status: {STR: 3, ATS: 18, LUC: 10, RCH: 5}, value: 50, Enchants: {id: 0}}, AttributeModifiers: [{Amount: 999, Slot: "mainhand", AttributeName: "generic.attack_speed", Operation: 0, UUID: [I; -710165105, -129742033, -1960463454, 1522099123], Name: "generic.attack_speed"}]}

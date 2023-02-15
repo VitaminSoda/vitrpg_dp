@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "score": {
+        "name": "@s",
+        "objective": "DMG"
+      },
+      "bold": false
+    }
+  }
+]

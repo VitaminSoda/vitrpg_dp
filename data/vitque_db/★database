@@ -1,0 +1,18 @@
+機能: データベース
+
+L 敵の戦利品
+L ルートテーブル
+# 敵、アイテム情報
+
+
+カテゴリ
+A : advancements 
+F : functions
+I  : item_modifiers
+L : loot_tables
+R : recipes
+T : tags
+D : dimension_type
+S : structures
+W: worldgen
+# : その他

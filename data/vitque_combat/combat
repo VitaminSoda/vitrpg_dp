@@ -1,0 +1,17 @@
+機能: 戦闘システム全般
+
+F 攻撃のプロジェクタイル
+F ダメージシステム
+
+
+カテゴリ
+A : advancements 
+F : functions
+I  : item_modifiers
+L : loot_tables
+R : recipes
+T : tags
+D : dimension_type
+S : structures
+W: worldgen
+# : その他

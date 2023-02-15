@@ -1,0 +1,30 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:1,Vitque:{}}"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:27b}].tag.CustomModelData",
+        "target": "CustomModelData",
+        "op": "merge"
+      },
+      {
+        "source": "Inventory[{Slot:27b}].tag.Vitque",
+        "target": "Vitque",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "",
+      "italic": false
+    }
+  }
+]

@@ -1,0 +1,1 @@
+ execute as @s[tag=PjtlM.n_1_1] run function vitque_combat:projectile/melee/n_1_1

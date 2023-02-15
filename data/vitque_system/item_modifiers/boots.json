@@ -1,0 +1,43 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{color:0},Vitque:{}}"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:27b}].tag.display",
+        "target": "display",
+        "op": "merge"
+      },
+      {
+        "source": "Inventory[{Slot:27b}].tag.Vitque",
+        "target": "Vitque",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "Player Data",
+      "color": "white",
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "Click to see your status",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

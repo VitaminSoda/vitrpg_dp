@@ -1,0 +1,19 @@
+機能: 武器、防具、その他アイテム
+
+F データベースから呼び出し
+F ショップ
+F プレイヤー武器プロジェクタイル
+F 武器、防具、その他アイテムの特殊機能
+
+
+カテゴリ
+A : advancements 
+F : functions
+I  : item_modifiers
+L : loot_tables
+R : recipes
+T : tags
+D : dimension_type
+S : structures
+W: worldgen
+# : その他
